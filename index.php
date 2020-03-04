@@ -3,6 +3,7 @@
 //$query = bootstrap.php';
 //$database = bootstrap.php';
 
+require 'vendor/autoload.php';
 require 'core/bootstrap.php';
 
 //die(var_dump($app));
