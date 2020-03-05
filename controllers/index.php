@@ -1,9 +1,9 @@
 <?php
 
-$tasks = $app['database']->selectAll('todos', 'Task');
+$tasks = App::get('database')->selectAll('todos', 'Task');
 var_dump($tasks);
 
-$users = $app['database']->selectAll('users', 'User');
+$users = App::get('database')->selectAll('users', 'User');
 var_dump($users);
 
 /*
