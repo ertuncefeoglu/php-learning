@@ -9,14 +9,14 @@ class ComposerStaticInit25375f1de82233249bd69f6c455776f9
     public static $classMap = array (
         'App\\Controllers\\PagesController' => __DIR__ . '/../..' . '/app/controllers/PagesController.php',
         'App\\Controllers\\UsersController' => __DIR__ . '/../..' . '/app/controllers/UsersController.php',
-        'App\\Core\\App' => __DIR__ . '/../..' . '/app/core/App.php',
-        'App\\Core\\Request' => __DIR__ . '/../..' . '/app/core/Request.php',
-        'App\\Core\\Router' => __DIR__ . '/../..' . '/app/core/Router.php',
+        'App\\Core\\App' => __DIR__ . '/../..' . '/core/App.php',
+        'App\\Core\\Request' => __DIR__ . '/../..' . '/core/Request.php',
+        'App\\Core\\Router' => __DIR__ . '/../..' . '/core/Router.php',
         'ComposerAutoloaderInit25375f1de82233249bd69f6c455776f9' => __DIR__ . '/..' . '/composer/autoload_real.php',
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
         'Composer\\Autoload\\ComposerStaticInit25375f1de82233249bd69f6c455776f9' => __DIR__ . '/..' . '/composer/autoload_static.php',
-        'Connection' => __DIR__ . '/../..' . '/app/core/database/Connection.php',
-        'QueryBuilder' => __DIR__ . '/../..' . '/app/core/database/QueryBuilder.php',
+        'Connection' => __DIR__ . '/../..' . '/core/database/Connection.php',
+        'QueryBuilder' => __DIR__ . '/../..' . '/core/database/QueryBuilder.php',
         'Task' => __DIR__ . '/../..' . '/Task.php',
     );
 

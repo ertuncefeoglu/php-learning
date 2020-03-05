@@ -6,7 +6,7 @@ use App\Core\{Router, Request};
 //$database = bootstrap.php';
 
 require 'vendor/autoload.php';
-require 'app/core/bootstrap.php';
+require 'core/bootstrap.php';
 
 //die(var_dump($app));
 // bunu sildi -- query builder classtan da sildi
