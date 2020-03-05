@@ -3,7 +3,7 @@
 
 App::bind('config', require 'config.php');
 
-var_dump(App::get('config'));
+//var_dump(App::get('config'));
 
 /*
 $app = [];
@@ -30,3 +30,15 @@ $app['database'] = new QueryBuilder(
 	Connection::make($app['config']['database'])
 );
 */
+
+function view($name, $data = [])
+{
+	extract($data);
+	return require "views/{$name}.view.php";
+}
+
+function redirect($path)
+{
+	header("Location: /{$path}");
+
+}
