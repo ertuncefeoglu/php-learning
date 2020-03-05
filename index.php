@@ -6,7 +6,7 @@ use App\Core\{Router, Request};
 //$database = bootstrap.php';
 
 require 'vendor/autoload.php';
-require 'core/bootstrap.php';
+require 'app/core/bootstrap.php';
 
 //die(var_dump($app));
 // bunu sildi -- query builder classtan da sildi
@@ -20,4 +20,4 @@ require 'routes.php';
 require $router->direct($uri);
 */
 
-Router::load('routes.php')->direct(Request::uri(), Request::method());
+Router::load('app/routes.php')->direct(Request::uri(), Request::method());

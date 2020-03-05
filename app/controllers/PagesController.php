@@ -19,17 +19,17 @@ class PagesController
 
 	public function about()
 	{
-		require 'views/about.view.php';
+		require 'app/views/about.view.php';
 	}
 
 	public function contact()
 	{
-		require 'views/contact.view.php';
+		require 'app/views/contact.view.php';
 	}
 
 	public function aboutculture()
 	{
-		require 'views/about-culture.view.php';
+		require 'app/views/about-culture.view.php';
 	}
 
 	/*
