@@ -1,5 +1,7 @@
 <?php
 
+use App\Core\{Router, Request};
+
 //$query = bootstrap.php';
 //$database = bootstrap.php';
 

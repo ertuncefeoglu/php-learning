@@ -1,5 +1,7 @@
 <?php
 
+use App\Core\App;
+
 $tasks = App::get('database')->selectAll('todos', 'Task');
 
 $users = App::get('database')->selectAll('users', 'User');
